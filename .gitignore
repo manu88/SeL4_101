@@ -1,4 +1,6 @@
+init-build.sh
 kernel/
+build/
 tools/
 projects/musllibc/
 projects/seL4_libs/

@@ -121,7 +121,9 @@ So we need to write some custom code. And it's about time !
 
 Let's add a new folder called 'Hello' inside the projects directory. This will be our root server.
 
+```
 mkdir projects/Hello/
+```
 
 So far, our project should look like this:
 
@@ -152,7 +154,7 @@ mkdir projects/Hello/src
 Inside projects/Hello/src, we add the simpliest program :
 
 ```C
- #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -180,8 +182,8 @@ DeclareRootserver(Hello)
 
 Now we have everything we need ! We just have to go inside the build folder:
 
-# First we remove everything from the folder
 ```bash
+# First we remove everything from the folder
 rm -r *
 
 # Re-run the initialization script :
@@ -212,4 +214,6 @@ Kernel entry via Unknown syscall, word: 523
 ```
 
 Yay!
+
+You can exit qemu with ctl-a + x.
 
