@@ -168,7 +168,7 @@ And we had a CMakeLists.txt inside projects/Hello :
 ```
 cmake_minimum_required(VERSION 3.7.2)
 
-project(Hello C) # create a new C project called 'init' 
+project(Hello C) # create a new C project called 'Hello' 
 
 
 add_executable(Hello src/main.c) # add files to our project. Paths are relative to this file.
