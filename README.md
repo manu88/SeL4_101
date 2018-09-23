@@ -99,8 +99,6 @@ GenerateSimulateScript()
 
 We're creating a real file instead of a symbolic link because this is a good place to set global build variables & environment settings. Most sel4 projects ends up setting kernel related configuration in files inside the 'projects' folder; I just think this is a more convenient and clean place.
 
-(Or you still can symlink the default CMakeLists, this should work for now :) )
-
 Let's try to build
 
 mkdir build
