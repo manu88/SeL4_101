@@ -163,7 +163,7 @@ int main(void)
 }
 ```
 
-And we had a CMakeLists.txt inside projects/Hello :
+And we add a CMakeLists.txt inside projects/Hello :
 
 ```
 cmake_minimum_required(VERSION 3.7.2)
