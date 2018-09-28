@@ -103,7 +103,7 @@ Let's try to build
 ```bash
 mkdir build
 cd build
-../init-build.sh 
+../init-build.sh  -DPLATFORM=x86_64 -DSIMULATION=TRUE
 ```
 You should see a lot of repeated errors like :
 
