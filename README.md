@@ -6,7 +6,7 @@ More general informations can be found here:
 - <https://sel4.systems>
 - <https://docs.sel4.systems/FrequentlyAskedQuestions.html>
 
-The main purpose of this article is to create yet an other 'Hello World' project. Yes, SeL4 team already offers a build system, built around CMake & ninja, with git & google's repo as source control. The idea here is to create from scrath the code and project layout.
+The main purpose of this article is to create yet an other 'Hello World' project. Yes, SeL4 team already offers a build system, built around CMake & ninja, with git & google's repo as source control. The idea here is to create from scratch the code and project layout.
 
 # sel4 Kernel components:
 
